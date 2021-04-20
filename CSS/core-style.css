@@ -1,0 +1,83 @@
+
+a {  
+  color: #131212;
+  font-weight: 400;
+  font-size: 12px; }
+  a:hover, a:focus {
+    
+    text-decoration: none;
+    font-weight: 400; }
+
+ul,
+ol {
+  margin: 0; }
+  ul li,
+  ol li {
+    list-style: none;
+  }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+
+/* :: 7.0 Popular Products Area CSS */
+.single-product-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+  overflow: hidden;
+  background-color: #ffffff; }
+  .single-product-wrapper .product-img {
+    position: relative;
+    z-index: 1;
+    overflow: hidden; }
+    .single-product-wrapper .product-img img {
+      
+      height: 100%;
+      }
+    .single-product-wrapper .product-img .hover-img {
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden; }
+  .single-product-wrapper .product-description {
+    
+    z-index: 1;
+    margin-top: 25px; }
+    .single-product-wrapper .product-description .product-meta-data .line {
+      width: 100px;
+      height: 3px;
+      background-color: #fbb710;
+      margin-bottom: 15px;
+      display: block; }
+    .single-product-wrapper .product-description .product-meta-data .product-price {
+      line-height: 1;
+      color: #fbb710;
+      font-size: 24px;
+      margin-bottom: 10px; }
+    .single-product-wrapper .product-description .product-meta-data a {
+      display: block; }
+      .single-product-wrapper .product-description .product-meta-data a h6 {
+        margin-bottom: 0; }
+    .single-product-wrapper .product-description .ratings-cart .ratings i {
+      font-size: 10px;
+      color: #fbb710; }
+    .single-product-wrapper .product-description .ratings-cart .cart {
+      display: block; }
+  .single-product-wrapper:hover .product-img .hover-img {
+    opacity: 1;
+    visibility: visible; }
+  .single-product-wrapper:hover .product-img .product-favourite a {
+    opacity: 1;
+    visibility: visible; }
+
+
+
+/* ##### The End ##### */
+
+/*# sourceMappingURL=core-style.css.map */

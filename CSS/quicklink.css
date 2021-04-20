@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Gruppo|Lato");
+
+.bucket {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 0 1 160px;
+  margin: 1rem auto;
+}
+.bucket .link-list__item {
+  padding: 0.50rem 0;
+  list-style: none;
+  cursor: pointer;
+}
+.bucket .link-list__item:hover {
+  transition: all 222ms ease-out;
+  transform: scale(1.03);
+}
+.bucket .link-list__item a{
+  text-decoration: none;
+}
+.bucket .link-list__item .text {
+  font-size: 15px;
+  color: black;
+  font-family: Berlin Sans FB;
+}
+.bucket .link-list__item .text:hover{
+  color: purple;
+}
+@media (max-width: 704px) {
+  footer {
+    max-width: 400px;
+  }
+}

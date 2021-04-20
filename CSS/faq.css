@@ -1,0 +1,38 @@
+.box-toggle {
+	padding: 10px 0 39px;	
+}
+
+.box-toggle .contorol {
+	background: #708090;
+    color: black;
+    overflow: hidden;
+    margin-top: 22px;
+    border-radius: 20px;
+}
+
+.box-toggle .contorol h5 {
+	float: left;
+	padding-left: 29px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.box-toggle .contorol span{
+	float: right !important;
+    padding-right: 29px;
+    padding-top: 30px;
+    line-height: 65px;
+}
+
+
+.box-toggle .content-box {
+    background: #808080;
+    padding: 20px 30px 10px 30px;
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: Time New Romen;
+}
+

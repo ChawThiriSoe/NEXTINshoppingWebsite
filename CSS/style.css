@@ -1,0 +1,67 @@
+body{
+	background-color: white;
+	font-family: Berlin Sans FB;
+}
+
+.text{
+	font-size: 16px;
+	color: black;
+}
+
+.aa{
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+}
+
+.aa:hover{
+	background-color: white;
+	color: black;
+}
+
+.bb{
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+}
+
+.bb:hover{
+	background-color: white;
+	color: black;
+}
+
+.pro:hover{
+	opacity: 0.7;
+	border-radius: 40px;
+}
+
+.ff{
+	padding: 5px;
+	color: #8B0000;
+	text-align: center;
+	font-size: 17px;
+}
+
+.gg{
+	padding: 5px;
+	color: black;
+	text-align: center;
+}
+
+#panel1, #panel2, #panel3, #panel4, #panel5{
+	padding: 20px;
+	display: none;
+	border-top: none;
+	text-align: justify;
+}
+.aboutimg{
+position: absolute;
+bottom: 0;
+box-sizing: border-box;
+padding: 0 8px 40px 8px;
+color:#fff;
+}
